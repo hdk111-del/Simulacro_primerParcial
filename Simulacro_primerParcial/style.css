@@ -1,0 +1,130 @@
+body{
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    padding: 10px;  
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width:1200px;
+    background-color:aliceblue;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgb(108, 235, 76);
+}
+iframe{
+ width: 100%;       /* Ocupa el 100% del ancho disponible en el container */
+    height: 450px;     /* Puedes ajustar la altura a tu gusto */
+    border-radius: 10px; /* Opcional: para que combine con tus bordes redondeados */
+    margin-top: 20px;
+    border: none;
+}
+.banner{
+  background-color: #00843D; /* Verde Servientrega corporativo */
+    padding:  20px 0  ; /* Espaciado arriba y abajo de la imagen */
+    width: auto; /* Ocupa todo el ancho de la página */
+    margin-left:-30px ;/*es - el espacio del padding, de esa forma toma todo */
+    margin-right: -30px;
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centrado horizontal */
+ /* Centrado vertical */
+
+    }
+    .banner img {
+    max-width: 250px; /* Controla que el logo no sea gigante */
+    height: auto;
+}
+   /* Esto afecta a la CAJA que envuelve los botones */
+/* Agrupamos los contenedores */
+.banner-servicios{
+  background-color: #2f0000; /* Verde Servientrega corporativo */
+    padding:  20px 0  ; /* Espaciado arriba y abajo de la imagen */
+    width: auto; /* Ocupa todo el ancho de la página */
+    margin-left:-30px ;/*es - el espacio del padding, de esa forma toma todo */
+    margin-right: -30px;
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centrado horizontal */
+ /* Centrado vertical */
+
+    }
+.em{
+    font-style: italic;
+}
+    .color-RGB{
+        background:rgb(243, 234, 217) ;
+    
+    }
+    .ejemplos-formato{
+        background:rgb(165, 234, 147) ;
+       max-width:500px;
+  
+    }
+.botones-principales, 
+.redes-sociales {
+  
+    margin-left:-30px ;/*es - el espacio del padding, de esa forma toma todo */
+    margin-right: -30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    background: #00843D;
+}
+
+/* Agrupamos las imágenes dentro de esos contenedores */
+.botones-principales img, 
+.redes-sociales img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+/* Agrupamos el efecto hover */
+.botones-principales img:hover, 
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #0c2b02;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #99e954;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+input:focus, 
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+  background-color: #cdead4;
+}
